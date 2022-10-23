@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- top bar -->
+    <section id="topBar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="info_box text-white d-flex justify-content-start gap-3">
+                        <div class="contact_box">
+                            <a href="">
+                                <i class="fas fa-phone-alt"></i>
+                                <span class="phone_number">+8801743658736</span>
+                            </a>
+                        </div>
+                        <div class="email_box">
+                            <a href="">
+                                <i class="fas fa-envelope"></i>
+                                <span class="phone_number">demo@gmail.com</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="login_register text-white d-flex justify-content-end gap-3">
+                        <div class="login_box">
+                            <a href="">
+                                <span class="login_text">Login</span>
+                            </a>
+                        </div>
+                        <div class="register_box">
+                            <a href="">
+                                <span class="register_text">Register</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- top bar end-->
+    <!-- header section -->
+    <header id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="logo_box">
+                        <a href="index.html" class="logo">E-Shop</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="search_box">
+                        <div class="input-group mb-3">
+                            <button class="btn dropdown-toggle " type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">ALL CATEGORIES</button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">All Categories</a></li>
+                                <li><a class="dropdown-item" href="#">Men</a></li>
+                                <li><a class="dropdown-item" href="#">Women</a></li>
+                                <li><a class="dropdown-item" href="#">Child</a></li>
+                                <li><a class="dropdown-item" href="#">Accessories</a></li>
+                                <li><a class="dropdown-item" href="#">Gadget</a></li>
+                                <li><a class="dropdown-item" href="#">Clothes</a></li>
+                            </ul>
+
+                            <input type="text" class="form-control search_input"
+                                aria-label="Text input with dropdown button" placeholder="Search Product">
+                                <button type="submit" class="input-group-text search_btn" id="basic-addon2"><i class="fas fa-search"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="cart_box d-flex justify-content-end align-items-center">
+                        <div class="support_box me-5">
+                            <h2 class="support_number">019 974 6392</h2>
+                            <span class="support_text text-center">Support 24/7</span>
+                        </div>
+                        <div class="compare_box px-3" title="compare product">
+                            <a href="#">
+                                <i class="fas fa-random icon compare_icon"></i>
+                                <!-- <img src="./images/compare-01.png" alt="Compre img" class="compare_img"> -->
+                                <span class="count">5</span>
+                            </a>
+                        </div>
+                        <div class="wishlist_box px-3" title="wishlist">
+                            <a href="#">
+                                <i class="far fa-heart icon wishlist_icon"></i>
+                                <span class="count">2</span>
+                            </a>
+                        </div>
+                        <div class="cart_box px-3" title="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-bag icon cart_icon"></i>
+                                <span class="count">7</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end-->
+
+    <!-- navbar section -->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <!-- dropdown category -->
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle dropdown_text" data-toggle="dropdown"><i class="fas fa-bars me-2"></i> SHOP BY CATEGORIES  <b
+                                class="caret"></b>
+                            </a>
+                        <ul class="dropdown-menu">
+                            <li class="kopie"><a href="#">Men</a></li>
+                            <li><a href="#">Women</a></li>
+                            <li class="active"><a href="#">Kids</a></li>
+                            <li><a href="#">Accessories</a></li>
+                            <li class="dropdown dropdown-submenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cloths
+                                    </a>
+                                <ul class="dropdown-menu">
+                                    <li class="kopie"><a href="#">T-Shirt</a></li>
+                                    <li><a href="#">Panjabi</a></li>
+                                    <li><a href="#">Tops</a></li>
+                                    <li><a href="#">3 Pics</a></li>
+                                    <li><a href="#">Saree</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown dropdown-submenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fruits & Vegetables</a>
+                                <ul class="dropdown-menu">
+                                    <li class="kopie"><a href="#">Banana</a></li>
+                                    <li><a href="#">Melon</a></li>
+                                    <li><a href="#">Lemon</a></li>
+                                    <li><a href="#">Grapes</a></li>
+                                
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <!-- /.navbar-collapse -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+   
+    <main>
+        <!-- product details section -->
+        <section id="product_details">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="product_details_image">
+                            <img src="./images/slider-4.jpg" alt="Product Details Image" class="big_image w-100">
+                            <div class="more_image_box d-flex gap-3 my-3">
+                                <div class="small_img">
+                                    <img src="./images/xproduct_1.png.pagespeed.ic.DvPBG5vxas.png" alt="small img" class="small_image" onclick="changeImage(this.src)">
+                                </div>
+                                <div class="small_img">
+                                    <img src="./images/xproduct_3.png.pagespeed.ic.jCfub0gA7s.png" alt="small img" class="small_image" onclick="changeImage(this.src)">
+                                </div>
+                                <div class="small_img">
+                                    <img src="./images/xproduct_7.png.pagespeed.ic.9nA45gs3KX.png" alt="small img" class="small_image" onclick="changeImage(this.src)">
+                                </div>
+                                <div class="small_img">
+                                    <img src="./images/xproduct_9.png.pagespeed.ic.I5FJ0ewNHX.png" alt="small img" class="small_image" onclick="changeImage(this.src)">
+                                </div>
+                                <div class="small_img">
+                                    <img src="./images/xproduct_10.png.pagespeed.ic.69mYA3FDZH.png" alt="small img" class="small_image" onclick="changeImage(this.src)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="product_details_content">
+                            <span class="category_name">Cloths</span>
+                            <h1 class="product_name">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+                            <div class="ratings_box d-flex gap-1">
+                                <div class="rating">
+                                    <i class="fas fa-star rating_icon"></i>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star rating_icon"></i>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star rating_icon"></i>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star rating_icon"></i>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star rating_icon"></i>
+                                </div>
+                                <div class="ps-1">
+                                    <a href="#" class="rating_count">3 Ratings</a>
+                                </div>
+                            </div>
+                            <h6 class="product_brand">Product Brand: <a href="#">Jamdani</a></h6>
+                            <h6 class="product_code">Product Code: D-332-4233</h6>
+                            <hr>
+                            <h3 class="product_price">৳ 1500</h3>
+                            <p class="stock">Availability : <span>Instock</span></p>
+                             <div class="size mt-3">
+                                <label for="size" class="size_text">Size: </label>
+                                <select name="size" id="size" class="w-25 size_input">
+                                    <option value="" selected disabled class="text-muted">Select Size</option>
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                </select>
+                            </div>
+                            <div class="colors d-flex gap-2 mt-4 align-items-center">
+                                <label for="" class="color_text">Color : </label>
+                                <div class="d-flex gap-2">
+                                    <div class="color black"></div>
+                                    <div class="color purple"></div>
+                                    <div class="color red"></div>
+                                    <div class="color pink"></div>
+                                </div>
+                            </div>
+                            <div class="quantity d-flex align-items-baseline mt-4">
+                                <label for="" class="qty_text">Quantity : </label>
+                                <div class="d-flex">
+                                    <span class="decrement_btn">-</span>
+                                    <input type="text" size="3" class="text-center" min="1" value="1">
+                                    <span class="increment_btn">+</span>
+                                </div>
+                            </div>
+                           <div class="product_btn d-flex gap-3 mt-5">
+                                <div class="cart_btn_box">
+                                    <a href="" class="btn cart_btn"><i class="fas fa-shopping-basket me-1"></i> Add To Cart</a>
+                                </div>
+                                <div class="wishlist_btn_box">
+                                    <a href="" class="btn wishlist_btn"><i class="far fa-heart me-1"></i> Add To Wishlist</a>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!-- extra options -->
+                <div class="row py-4">
+                    <div class="col-12">
+                        <div class="review_descriptiobn_box border p-3">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-description" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Description</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-reviews" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Reviews(12)</button>
+                                </li>
+                                
+                              </ul>
+                              <hr>
+                              <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-description" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                                    <div class="description_box px-5 py-3">
+                                        <p class="px-3 pb-2 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                                        <p class="px-3 pb-2 text-muted"> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                         <ul class="items">
+                                            <li>High-Quality Product</li>
+                                            <li>Unique style</li>
+                                            <li>Comfort to wear</li>
+                                            <li>Double welted front pockets</li>
+                                            <li>Water column pressure: 4000 mm</li>
+                                            <li>Ventilation under armpit</li>
+                                            <li>Water column pressure: 4000 mm</li>
+                                            <li>Ultrasonically welded seams</li>
+                                            <li> 64% polyester, 36% polyurethane</li>
+                                         </ul>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-reviews" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                                    <div class="review_wrap">
+                                         <h4 class="review_text">Add Your Review</h4>
+                                         <hr>
+                                         <form action="">
+                                            <div class="review_box d-flex gap-1 mb-4 mt-5 ms-1">
+                                                <span class="text-danger">*</span>
+                                                <div class="review">
+                                                    <i class="fas fa-star review_icon"></i>
+                                                </div>
+                                                <div class="review">
+                                                    <i class="fas fa-star review_icon"></i>
+                                                </div>
+                                                <div class="review">
+                                                    <i class="fas fa-star review_icon"></i>
+                                                </div>
+                                                <div class="review">
+                                                    <i class="fas fa-star review_icon"></i>
+                                                </div>
+                                                <div class="review">
+                                                    <i class="fas fa-star review_icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="input-group mb-3">
+                                                <span class="text-danger">*</span>
+                                                <input type="text" name="name" class="w-25 py-1 ps-2 ms-1" placeholder="Your Name">
+                                            </div>
+                                            <div class="input-group mb-4">
+                                                <span class="text-danger">*</span>
+                                                <textarea name="message" rows="5" class="w-25 py-1 ps-2 ms-1" placeholder="Message"></textarea>
+                                            </div>
+                                            <div class="input-group ms-1">
+                                                <button type="submit" class="btn btn_review">Add Review</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+         <!-- product details section end-->
+
+         <!-- releted product section end-->
+         <section id="related_product">
+            <div class="container-fluid">
+                <h1 class="title">Related Product</h1>
+                <div class="row row-cols-1 row-cols-md-4 g-2 pt-4">
+                    <div class="col h-100">
+                        <div class="product">
+                            <div class="card text-center">
+                                <div class="tag">
+                                    <a href="" class="tag_info">-15%</a>
+                                </div>
+                                <img src="./images/product-3.jpg" class="card-img-top" alt="product Image">
+                                <a href="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lorem Ipsum is simply dummy text</h5>
+                                        <div class="price mb-3 d-flex gap-3 justify-content-center">
+                                            <span class="original_price">$100</span>
+                                            <span class="old_price"><del>$120</del></span>
+                                        </div>
+                                    </div>
+                                </a> 
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                <div class="icon_group d-flex flex-column gap-2">
+                                    <div class="view_icon_box">
+                                        <a href="">
+                                            <div class="product_view" title="Quick view">
+                                                <i class="far fa-eye icon view_icon text-white"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="cart_icon_box">
+                                        <a href="">
+                                            <div class="product_cart" title="Add to cart">
+                                            <i class="fas fa-shopping-cart cart_icon text-white"></i>
+                                            </div>
+                                        </a>
+                                     </div>
+                                     <div class="cart_icon_box">
+                                        <a href="">
+                                            <div class="product_cart" title="Add to wishlist">
+                                            <i class="far fa-heart icon wishlist_icon text-white"></i>
+                                            </div>
+                                        </a>
+                                     </div>
+                                     <div class="cart_icon_box">
+                                        <a href="">
+                                            <div class="product_compare" title="Compare">
+                                                <img src="./images/compare-01.png" alt="Compre img" class="compare_img">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col h-100">
+                        <div class="product">
+                            <div class="card text-center">
+                                <div class="tag">
+                                    <a href="" class="tag_info">Sale</a>
+                                </div>
+                                <img src="./images/office-products.png" class="card-img-top" alt="product Image">
+                                <a href="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lorem Ipsum is simply dummy text</h5>
+                                        <div class="price mb-3 d-flex gap-3 justify-content-center">
+                                            <span class="original_price">$100</span>
+                                            <span class="old_price"><del>$120</del></span>
+                                        </div>
+                                    </div>
+                                </a> 
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                <div class="icon_group d-flex flex-column gap-2">
+                                    <div class="view_icon_box">
+                                        <a href="">
+                                            <div class="product_view" title="Quick view">
+                                                <i class="far fa-eye icon view_icon text-white"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="cart_icon_box">
+                                        <a href="">
+                                            <div class="product_cart" title="Add to cart">
+                                            <i class="fas fa-shopping-cart cart_icon text-white"></i>
+                                            </div>
+                                        </a>
+                                     </div>
+                                     <div class="cart_icon_box">
+                                        <a href="">
+                                            <div class="product_cart" title="Add to wishlist">
+                                            <i class="far fa-heart icon wishlist_icon text-white"></i>
+                                            </div>
+                                        </a>
+                                     </div>
+                                     <div class="cart_icon_box">
+                                        <a href="">
+                                            <div class="product_compare" title="Compare">
+                                                <img src="./images/compare-01.png" alt="Compre img" class="compare_img">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col h-100">
+                        <div class="product">
+                            <div class="card text-center">
+                                <div class="tag">
+                                    <a href="" class="tag_info">-20%</a>
+                                </div>
+                                <img src="./images/office-work-new.png" class="card-img-top" alt="product Image">
+                                <a href="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lorem Ipsum is simply dummy text</h5>
+                                        <div class="price mb-3 d-flex gap-3 justify-content-center">
+                                            <span class="original_price">$100</span>
+                                            <span class="old_price"><del>$120</del></span>
+                                        </div>
+                                    </div>
+                                </a> 
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                <div class="icon_group d-flex flex-column gap-2">
+                                    <div class="view_icon_box">
+                                        <a href="">
+                                            <div class="product_view" title="Quick view">
+                                                <i class="far fa-eye icon view_icon text-white"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="cart_icon_box">
+                                        <a href="">
+                                            <div class="product_cart" title="Add to cart">
+                                            <i class="fas fa-shopping-cart cart_icon text-white"></i>
+                                            </div>
+                                        </a>
+                                     </div>
+                                     <div class="cart_icon_box">
+                                        <a href="">
+                                            <div class="product_cart" title="Add to wishlist">
+                                            <i class="far fa-heart icon wishlist_icon text-white"></i>
+                                            </div>
+                                        </a>
+                                     </div>
+                                     <div class="cart_icon_box">
+                                        <a href="">
+                                            <div class="product_compare" title="Compare">
+                                                <img src="./images/compare-01.png" alt="Compre img" class="compare_img">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col h-100">
+                        <div class="product">
+                            <div class="card text-center">
+                                <div class="tag">
+                                    <a href="" class="tag_info">Sale</a>
+                                </div>
+                                <img src="./images/xproduct_2.png.pagespeed.ic.5v5cwO3kBP.png" class="card-img-top" alt="product Image">
+                                <a href="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lorem Ipsum is simply dummy text</h5>
+                                        <div class="price mb-3 d-flex gap-3 justify-content-center">
+                                            <span class="original_price">$100</span>
+                                            <span class="old_price"><del>$120</del></span>
+                                        </div>
+                                    </div>
+                                </a> 
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                <div class="icon_group d-flex flex-column gap-2">
+                                    <div class="view_icon_box">
+                                        <a href="">
+                                            <div class="product_view" title="Quick view">
+                                                <i class="far fa-eye icon view_icon text-white"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="cart_icon_box">
+                                        <a href="">
+                                            <div class="product_cart" title="Add to cart">
+                                            <i class="fas fa-shopping-cart cart_icon text-white"></i>
+                                            </div>
+                                        </a>
+                                     </div>
+                                     <div class="cart_icon_box">
+                                        <a href="">
+                                            <div class="product_cart" title="Add to wishlist">
+                                            <i class="far fa-heart icon wishlist_icon text-white"></i>
+                                            </div>
+                                        </a>
+                                     </div>
+                                     <div class="cart_icon_box">
+                                        <a href="">
+                                            <div class="product_compare" title="Compare">
+                                                <img src="./images/compare-01.png" alt="Compre img" class="compare_img">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+          <!-- releted product section-->
+    </main>
+
+    <!-- footer section -->
+    <footer id="footer">
+        <div class="container-fluid w-100">
+            <div class="row pt-3 justify-content-center">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h3 class="footer_title">E-Shop</h3>
+                    <div class="contact_info">
+                        <ul>
+                            <li class="mb-2">
+                                <div class="contact_info d-flex gap-3">
+                                    <div class="contact_icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact_text">
+                                        <p>House 16, Road 14, Block G, Niketan, Gulshan 1, <br> Dhaka - 1212, Bangladesh</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-2">
+                                <div class="contact_info d-flex gap-3">
+                                    <div class="contact_icon">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div class="contact_text">
+                                        <p>+8801743678352</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-2">
+                                <div class="contact_info d-flex gap-3">
+                                    <div class="contact_icon">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                    <div class="contact_text">
+                                        <p>support@gmail.com</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="ps-4">
+                        <h3 class="footer_title">About</h3>
+                        <div class="about_info">
+                            <ul>
+                                <li class="mb-2"><a href="#">About Us</a></li>
+                                <li class="mb-2"><a href="#">Privacy Policy</a></li>
+                                <li class="mb-2"><a href="#">Terms & Conditions</a></li>
+                                <li class="mb-2"><a href="#">Cookie Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <h3 class="footer_title">Help</h3>
+                    <div class="help_info">
+                        <ul>
+                            <li class="mb-2"><a href="#">Shipping</a></li>
+                            <li class="mb-2"><a href="#">Payment</a></li>
+                            <li class="mb-2"><a href="#">Return And Replacement</a></li>
+                            <li class="mb-2"><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="ps-4">
+                        <h3 class="footer_title">Social</h3>
+                        <div class="social_info">
+                            <ul class="d-flex gap-4">
+                                <li class="mb-2"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li class="mb-2"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li class="mb-2"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li class="mb-2"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                <li class="mb-2"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end-->
+
+
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/custom.js"></script>
+</body>
+
+</html>

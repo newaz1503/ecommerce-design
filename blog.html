@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- top bar -->
+    <section id="topBar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="info_box text-white d-flex justify-content-start gap-3">
+                        <div class="contact_box">
+                            <a href="">
+                                <i class="fas fa-phone-alt"></i>
+                                <span class="phone_number">+8801743658736</span>
+                            </a>
+                        </div>
+                        <div class="email_box">
+                            <a href="">
+                                <i class="fas fa-envelope"></i>
+                                <span class="phone_number">demo@gmail.com</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="login_register text-white d-flex justify-content-end gap-3">
+                        <div class="login_box">
+                            <a href="">
+                                <span class="login_text">Login</span>
+                            </a>
+                        </div>
+                        <div class="register_box">
+                            <a href="">
+                                <span class="register_text">Register</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- top bar end-->
+    <!-- header section -->
+    <header id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="logo_box">
+                        <a href="index.html" class="logo">E-Shop</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="search_box">
+                        <div class="input-group mb-3">
+                            <button class="btn dropdown-toggle " type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">ALL CATEGORIES</button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">All Categories</a></li>
+                                <li><a class="dropdown-item" href="#">Men</a></li>
+                                <li><a class="dropdown-item" href="#">Women</a></li>
+                                <li><a class="dropdown-item" href="#">Child</a></li>
+                                <li><a class="dropdown-item" href="#">Accessories</a></li>
+                                <li><a class="dropdown-item" href="#">Gadget</a></li>
+                                <li><a class="dropdown-item" href="#">Clothes</a></li>
+                            </ul>
+
+                            <input type="text" class="form-control search_input"
+                                aria-label="Text input with dropdown button" placeholder="Search Product">
+                                <button type="submit" class="input-group-text search_btn" id="basic-addon2"><i class="fas fa-search"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="cart_box d-flex justify-content-end align-items-center">
+                        <div class="support_box me-5">
+                            <h2 class="support_number">019 974 6392</h2>
+                            <span class="support_text text-center">Support 24/7</span>
+                        </div>
+                        <div class="compare_box px-3" title="compare product">
+                            <a href="#">
+                                <img src="./images/compare-01.png" alt="Compre img" class="compare_img">
+                                <span class="count">5</span>
+                            </a>
+                        </div>
+                        <div class="wishlist_box px-3" title="wishlist">
+                            <a href="#">
+                                <i class="far fa-heart icon wishlist_icon"></i>
+                                <span class="count">2</span>
+                            </a>
+                        </div>
+                        <div class="cart_box px-3" title="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-bag icon cart_icon"></i>
+                                <span class="count">7</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end-->
+
+    <!-- navbar section -->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <!-- dropdown category -->
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle dropdown_text" data-toggle="dropdown"><i class="fas fa-bars me-2"></i> SHOP BY CATEGORIES  <b
+                                class="caret"></b>
+                            </a>
+                        <ul class="dropdown-menu">
+                            <li class="kopie"><a href="#">Men</a></li>
+                            <li><a href="#">Women</a></li>
+                            <li class="active"><a href="#">Kids</a></li>
+                            <li><a href="#">Accessories</a></li>
+                            <li class="dropdown dropdown-submenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cloths
+                                    </a>
+                                <ul class="dropdown-menu">
+                                    <li class="kopie"><a href="#">T-Shirt</a></li>
+                                    <li><a href="#">Panjabi</a></li>
+                                    <li><a href="#">Tops</a></li>
+                                    <li><a href="#">3 Pics</a></li>
+                                    <li><a href="#">Saree</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown dropdown-submenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fruits & Vegetables</a>
+                                <ul class="dropdown-menu">
+                                    <li class="kopie"><a href="#">Banana</a></li>
+                                    <li><a href="#">Melon</a></li>
+                                    <li><a href="#">Lemon</a></li>
+                                    <li><a href="#">Grapes</a></li>
+                                
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- /.navbar-collapse -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+    
+    <main>
+        <section id="blog">
+            <div class="container-fluid py-5">
+                <h1 class="title">Blog</h1>
+                <div class="row">
+                    <div class="row row-cols-1 row-cols-md-4 g-2 pt-3">
+                        <div class="col h-100">
+                            <div class="blog_post">
+                                <div class="card ">
+                                    <a href="">
+                                        <img src="./images/category-2.jpg" class="card-img-top" alt="Blog Image">
+                                    </a>
+                                    <div class="blog_content p-4">
+                                        <div class="time mb-2">
+                                            <span class="date text-muted">25 Sep, 2022</span>
+                                        </div>
+                                        <a href="">
+                                            <div class="mb-3">
+                                                <h3 class="blog_title">Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+                                            </div>
+                                        </a>
+                                        <p class="blog_des mb-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.autem natus cum tempora distinctio..</p>  
+                                        <a href="" class="btn btn-primary">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col h-100">
+                            <div class="blog_post">
+                                <div class="card ">
+                                    <a href="">
+                                        <img src="./images/category-3.jpg" class="card-img-top" alt="Blog Image">
+                                    </a>
+                                    <div class="blog_content p-4">
+                                        <div class="time mb-2">
+                                            <span class="date text-muted">25 Sep, 2022</span>
+                                        </div>
+                                        <a href="">
+                                            <div class="mb-3">
+                                                <h3 class="blog_title">Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+                                            </div>
+                                        </a>
+                                        <p class="blog_des mb-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.autem natus cum tempora distinctio..</p>  
+                                        <a href="" class="btn btn-primary">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col h-100">
+                            <div class="blog_post">
+                                <div class="card ">
+                                    <a href="">
+                                        <img src="./images/category-2.jpg" class="card-img-top" alt="Blog Image">
+                                    </a>
+                                    <div class="blog_content p-4">
+                                        <div class="time mb-2">
+                                            <span class="date text-muted">25 Sep, 2022</span>
+                                        </div>
+                                        <a href="">
+                                            <div class="mb-3">
+                                                <h3 class="blog_title">Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+                                            </div>
+                                        </a>
+                                        <p class="blog_des mb-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.autem natus cum tempora distinctio..</p>  
+                                        <a href="" class="btn btn-primary">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col h-100">
+                            <div class="blog_post">
+                                <div class="card ">
+                                    <a href="">
+                                        <img src="./images/category-1.jpg" class="card-img-top" alt="Blog Image">
+                                    </a>
+                                    <div class="blog_content p-4">
+                                        <div class="time mb-2">
+                                            <span class="date text-muted">25 Sep, 2022</span>
+                                        </div>
+                                        <a href="">
+                                            <div class="mb-3">
+                                                <h3 class="blog_title">Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+                                            </div>
+                                        </a>
+                                        <p class="blog_des mb-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.autem natus cum tempora distinctio..</p>  
+                                        <a href="" class="btn btn-primary">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+               
+
+            </div>
+        </section>
+    </main>
+
+    <!-- footer section -->
+    <footer id="footer">
+        <div class="container-fluid w-100">
+            <div class="row pt-3 justify-content-center">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h3 class="footer_title">E-Shop</h3>
+                    <div class="contact_info">
+                        <ul>
+                            <li class="mb-2">
+                                <div class="contact_info d-flex gap-3">
+                                    <div class="contact_icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact_text">
+                                        <p>House 16, Road 14, Block G, Niketan, Gulshan 1, <br> Dhaka - 1212, Bangladesh</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-2">
+                                <div class="contact_info d-flex gap-3">
+                                    <div class="contact_icon">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div class="contact_text">
+                                        <p>+8801743678352</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mb-2">
+                                <div class="contact_info d-flex gap-3">
+                                    <div class="contact_icon">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                    <div class="contact_text">
+                                        <p>support@gmail.com</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="ps-4">
+                        <h3 class="footer_title">About</h3>
+                        <div class="about_info">
+                            <ul>
+                                <li class="mb-2"><a href="#">About Us</a></li>
+                                <li class="mb-2"><a href="#">Privacy Policy</a></li>
+                                <li class="mb-2"><a href="#">Terms & Conditions</a></li>
+                                <li class="mb-2"><a href="#">Cookie Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <h3 class="footer_title">Help</h3>
+                    <div class="help_info">
+                        <ul>
+                            <li class="mb-2"><a href="#">Shipping</a></li>
+                            <li class="mb-2"><a href="#">Payment</a></li>
+                            <li class="mb-2"><a href="#">Return And Replacement</a></li>
+                            <li class="mb-2"><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="ps-4">
+                        <h3 class="footer_title">Social</h3>
+                        <div class="social_info">
+                            <ul class="d-flex gap-4">
+                                <li class="mb-2"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li class="mb-2"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li class="mb-2"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li class="mb-2"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                <li class="mb-2"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end-->
+
+
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/custom.js"></script>
+</body>
+
+</html>
